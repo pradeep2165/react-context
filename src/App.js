@@ -8,11 +8,11 @@ import { UserProvider } from "./components/UserContext";
 function App() {
   return (
     <div className="App">
-      <UserProvider value="pradeep">
-        <ComponentA />
-        <ComponentB />
-        <ComponentC />
-      </UserProvider>
+      {/* <UserProvider value="pradeep"> */}
+      <ComponentA />
+      <ComponentB />
+      <ComponentC />
+      {/* </UserProvider> */}
     </div>
   );
 }
