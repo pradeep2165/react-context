@@ -1,6 +1,6 @@
 import React from "react";
 
-const UserContext = React.createContext("programmer");
+export const UserContext = React.createContext("programmer");
 
 const UserProvider = UserContext.Provider;
 const UserConsumer = UserContext.Consumer;
